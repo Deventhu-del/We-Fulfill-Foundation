@@ -44,25 +44,25 @@ const Navbar = () => {
           </div>
         </Link>
 
-        <Link href="/">
+        <Link href="#about-us">
           <div className="py-2 px-4 rounded-lg hover:bg-gray-100 transition ease-in">
             <h2>About us</h2>
           </div>
         </Link>
 
-        <Link href="/">
+        <Link href="#our-mission">
           <div className="py-2 px-4 rounded-lg hover:bg-gray-100 transition ease-in">
             <h2>Mission</h2>
           </div>
         </Link>
 
-        <Link href="/">
+        <Link href="#our-campaigns">
           <div className="py-2 px-4 rounded-lg hover:bg-gray-100 transition ease-in">
             <h2>Campaigns</h2>
           </div>
         </Link>
 
-        <Link href="/">
+        <Link href="#why-volunteer-us">
           <div className="py-2 px-4 rounded-lg hover:bg-gray-100 transition ease-in">
             <h2>Why Volunteer?</h2>
           </div>

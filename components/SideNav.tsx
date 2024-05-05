@@ -41,7 +41,7 @@ const SideNav = ({ isOpen, onClose }: any) => {
           </div>
         </a>
 
-        <a href="/our-mission">
+        <a href="#our-mission">
           <div className="px-8 h-16 flex items-center justify-start hover:bg-gray-100 rounded-lg cursor-pointer">
             Mission
           </div>

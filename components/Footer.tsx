@@ -7,31 +7,31 @@ const Footer = () => {
   return (
     <div className="w-full h-full bg-[#ffd700] rounded-t-3xl px-12 md:px-32 py-10">
       <div className="w-full flex flex-row flex-wrap justify-center items-center gap-x-10">
-        <Link href="#">
+        <Link href="/">
           <div className="py-2 px-4 rounded-lg hover:bg-gray-100 transition ease-in">
             <h2 className="">Home</h2>
           </div>
         </Link>
 
-        <Link href="/">
+        <Link href="#about-us">
           <div className="py-2 px-4 rounded-lg hover:bg-gray-100 transition ease-in">
             <h2>About us</h2>
           </div>
         </Link>
 
-        <Link href="/">
+        <Link href="#our-mission">
           <div className="py-2 px-4 rounded-lg hover:bg-gray-100 transition ease-in">
             <h2>Mission</h2>
           </div>
         </Link>
 
-        <Link href="/">
+        <Link href="#our-campaigns">
           <div className="py-2 px-4 rounded-lg hover:bg-gray-100 transition ease-in">
             <h2>Campaigns</h2>
           </div>
         </Link>
 
-        <Link href="/">
+        <Link href="#why-volunteer-us">
           <div className="py-2 px-4 rounded-lg hover:bg-gray-100 transition ease-in">
             <h2>Why Volunteer?</h2>
           </div>
