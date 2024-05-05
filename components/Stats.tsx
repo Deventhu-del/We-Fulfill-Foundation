@@ -2,7 +2,7 @@ import { Baby, Boxes, HandCoins, Users } from 'lucide-react'
 
 const Stats = () => {
   return (
-    <div className='flex flex-wrap max-lg:flex-col w-full h-full bg-white py-32 gap-20 text-gray-600 justify-between items-center drop-shadow-lg'>
+    <div className='flex flex-wrap max-lg:flex-col w-full h-full bg-white py-32 gap-20 md:gap-32 text-gray-600 justify-center items-center drop-shadow-lg'>
       <div className='flex flex-col justify-center items-center font-[Montserrat]'>
         <h6 className='text-7xl font-light'>100</h6>
         <p className='font-semibold'>PROGRAM</p>
