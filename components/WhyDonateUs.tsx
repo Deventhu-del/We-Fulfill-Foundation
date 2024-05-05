@@ -9,9 +9,10 @@ const WhyDonateUs = () => {
           Why <span className="text-[#ffd700]"> Donate?</span>
         </h4>
         <p className="text-lg w-3/4">
-          "Join our community of change-makers at WEFULFILL FOUNDATION. Your
-          donations qualify for tax benefits under sections 80G and 12A of the
-          Income Tax Act, maximizing your impact. Transform lives today."
+          &quot;Join our community of change-makers at WEFULFILL FOUNDATION.
+          Your donations qualify for tax benefits under sections 80G and 12A of
+          the Income Tax Act, maximizing your impact.
+          Transform lives today.&quot;
         </p>
       </div>
       <div className="w-full h-full flex items-center justify-center">
