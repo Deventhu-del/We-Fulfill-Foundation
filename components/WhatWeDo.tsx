@@ -21,7 +21,7 @@ const WhatWeDo = () => {
             </p>
 
             <p className="w-full md:w-3/4 text-justify text-[12px] lg:text-base ml-2">
-              We're a family dedicated to making a meaningful difference in the
+              We&apos;re a family dedicated to making a meaningful difference in the
               lives of those who need it most. From supporting orphaned children
               to providing care for the elderly, and assisting impoverished
               communities, our mission is simple: to spread love and
