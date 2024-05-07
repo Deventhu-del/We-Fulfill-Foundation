@@ -1,7 +1,12 @@
-import { IconBrandFacebookFilled, IconBrandInstagram, IconBrandTwitterFilled, IconBrandYoutubeFilled } from "@tabler/icons-react";
+import {
+  IconBrandFacebook,
+  IconBrandFacebookFilled,
+  IconBrandInstagram,
+} from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
 
 const Footer = () => {
   return (
@@ -68,17 +73,42 @@ const Footer = () => {
 
       <div className="flex justify-center items-center my-5 text-sm md:text-base">
         <div className="flex text-white">
-          <p className="py-2 px-5 bg-[#d61c4d] rounded-l-full">REGN. NO. U/S 80G, AAATO24182F20216</p>
-          <p className="p-2 bg-slate-600 rounded-r-full">REGN. NO. U/S 12A, AAATO2418EE20218</p>
+          <p className="py-2 px-5 bg-[#d61c4d] rounded-l-full">
+            REGN. NO. U/S 80G, AAATO24182F20216
+          </p>
+          <p className="p-2 bg-slate-600 rounded-r-full">
+            REGN. NO. U/S 12A, AAATO2418EE20218
+          </p>
         </div>
       </div>
 
       <div className="flex gap-2 justify-center items-center">
         <div className="flex gap-3">
-          <IconBrandFacebookFilled size={20} />
-          <IconBrandInstagram size={20} />
-          <IconBrandYoutubeFilled size={20} />
-          <IconBrandTwitterFilled size={20} />
+          <a href="https://www.facebook.com/profile.php?id=61559157448196&mibextid=ZbWKwL">
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <IconBrandFacebook size={20} />
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p>Facebook</p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
+          </a>
+
+          <a href="https://www.instagram.com/wefulfill.foundation?igsh=MWRuZ2FjcWhmMzVjNA">
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <IconBrandInstagram size={20} />
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p>Instagram</p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
+          </a>
         </div>
       </div>
     </div>

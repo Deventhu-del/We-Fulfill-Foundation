@@ -1,5 +1,16 @@
-import { Facebook, Instagram, Twitter, X, Youtube } from "lucide-react";
+import {
+  IconBrandFacebook,
+  IconBrandFacebookFilled,
+  IconBrandInstagram,
+} from "@tabler/icons-react";
+import { Facebook, Instagram, X } from "lucide-react";
 import React from "react";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "./ui/tooltip";
 
 const Banner = () => {
   return (
@@ -11,7 +22,10 @@ const Banner = () => {
       </div>
 
       <div className="flex gap-2">
-        <a href="mailto:janjagritisewasansthan@gmail.com" className="flex gap-2">
+        <a
+          href="mailto:janjagritisewasansthan@gmail.com"
+          className="flex gap-2"
+        >
           Email:
           <span className="hover:underline">
             janjagritisewasansthan@gmail.com
@@ -23,11 +37,32 @@ const Banner = () => {
 
       <div className="flex gap-2 justify-center items-center">
         <p>Social Networks: </p>
-        <div className="flex gap-3">
-          <Facebook size={20} />
-          <Instagram size={20} />
-          <Youtube size={20} />
-          <Twitter size={20} />
+        <div className="flex gap-3 cursor-pointer">
+          <a href="https://www.facebook.com/profile.php?id=61559157448196&mibextid=ZbWKwL">
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <IconBrandFacebook size={20} />
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p>Facebook</p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
+          </a>
+
+          <a href="https://www.instagram.com/wefulfill.foundation?igsh=MWRuZ2FjcWhmMzVjNA">
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <IconBrandInstagram size={20} />
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p>Instagram</p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
+          </a>
         </div>
       </div>
     </div>

@@ -33,9 +33,9 @@ const ImageSliderContent = ({
         />
       </div>
       <div
-        className={`w-[350px] h-[350px] flex flex-col justify-start items-center rounded-xl  bg-white ${
+        className={`w-full h-full flex flex-col justify-start items-center rounded-xl  bg-white ${
           isHovered
-            ? "absolute top-0 left-0 transition-all ease-in duration-200 p-10"
+            ? "absolute top-0 left-0 transition-all ease-in duration-200 p-5 md:p-10"
             : "absolute top-[78%] transition-all ease-out duration-200 pb-10"
         }`}
       >

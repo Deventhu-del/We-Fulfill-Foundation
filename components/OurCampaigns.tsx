@@ -11,13 +11,13 @@ import WhyVolunteerUs from "./WhyVolunteerUs";
 const OurCampaigns = () => {
   return (
     <div className="w-full bg-gray-200 pt-32 px-10 md:px-24 lg:px-32 pb-32">
-        <h3 className="text-5xl md:text-7xl font-bold">
-          Our
-          <span className="text-[#ffdd1f] font-outline-2 text-5xl md:text-7xl font-bold drop-shadow-lg">
-            {" "}
-            Campaigns
-          </span>
-        </h3>
+      <h3 className="text-5xl md:text-7xl font-bold">
+        Our
+        <span className="text-[#ffdd1f] font-outline-2 text-5xl md:text-7xl font-bold drop-shadow-lg">
+          {" "}
+          Campaigns
+        </span>
+      </h3>
 
       <div className="flex pt-12 pb-24 justify-between items-start w-full h-full flex-col lg:flex-row gap-10">
         <div className="max-lg:hidden">
@@ -38,24 +38,7 @@ const OurCampaigns = () => {
                   className="object-cover w-full h-full rounded-xl"
                 />
               </CarouselItem>
-              <CarouselItem className="rounded-xl">
-                <Image
-                  src={"/images/our-campaigns/medical/2.jpg"}
-                  width={1600}
-                  height={1200}
-                  alt="1"
-                  className="object-cover w-full h-full rounded-xl"
-                />
-              </CarouselItem>
-              <CarouselItem className="rounded-xl">
-                <Image
-                  src={"/images/our-campaigns/medical/3.jpg"}
-                  width={1600}
-                  height={1200}
-                  alt="1"
-                  className="object-cover w-full h-full rounded-xl"
-                />
-              </CarouselItem>
+
               <CarouselItem className="rounded-xl">
                 <Image
                   src={"/images/our-campaigns/medical/4.jpg"}
@@ -242,15 +225,7 @@ const OurCampaigns = () => {
             className="w-full max-w-[700px] h-full max-h-[400px] rounded-xl drop-shadow-lg"
           >
             <CarouselContent className="max-w-[700px] h-full max-h-[400px] rounded-xl">
-              <CarouselItem className="rounded-xl">
-                <Image
-                  src={"/images/our-campaigns/samuhik/1.jpg"}
-                  width={1080}
-                  height={713}
-                  alt="1"
-                  className="object-cover w-full h-full rounded-xl"
-                />
-              </CarouselItem>
+              
               <CarouselItem className="rounded-xl">
                 <Image
                   src={"/images/our-campaigns/samuhik/2.jpg"}
@@ -299,15 +274,7 @@ const OurCampaigns = () => {
             className="w-full max-w-[700px] h-full max-h-[400px] rounded-xl drop-shadow-lg"
           >
             <CarouselContent className="max-w-[700px] h-full max-h-[400px] rounded-xl">
-              <CarouselItem className="rounded-xl">
-                <Image
-                  src={"/images/our-campaigns/samuhik/1.jpg"}
-                  width={1080}
-                  height={713}
-                  alt="1"
-                  className="object-cover w-full h-full rounded-xl"
-                />
-              </CarouselItem>
+              
               <CarouselItem className="rounded-xl">
                 <Image
                   src={"/images/our-campaigns/samuhik/2.jpg"}
@@ -359,15 +326,7 @@ const OurCampaigns = () => {
             className="w-full max-w-[700px] h-full max-h-[400px] rounded-xl drop-shadow-lg"
           >
             <CarouselContent className="max-w-[700px] h-full max-h-[400px] rounded-xl">
-              <CarouselItem className="rounded-xl">
-                <Image
-                  src={"/images/our-campaigns/nourishment/1.jpg"}
-                  width={738}
-                  height={533}
-                  alt="1"
-                  className="object-cover w-full h-full rounded-xl"
-                />
-              </CarouselItem>
+              
               <CarouselItem className="rounded-xl">
                 <Image
                   src={"/images/our-campaigns/nourishment/2.jpg"}

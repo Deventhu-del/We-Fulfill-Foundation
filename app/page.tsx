@@ -1,5 +1,8 @@
+"use client";
+
 import Banner from "@/components/Banner";
 import DonationSlider from "@/components/DonationSlider";
+import FollowUsDialog from "@/components/FollowUsDialog";
 import Footer from "@/components/Footer";
 import ImageCarousel from "@/components/ImageCarousel";
 import OurCampaigns from "@/components/OurCampaigns";
@@ -7,10 +10,26 @@ import OurMission from "@/components/OurMission";
 import Stats from "@/components/Stats";
 import WhatWeDo from "@/components/WhatWeDo";
 import WhyDonateUs from "@/components/WhyDonateUs";
+import { useEffect, useState } from "react";
 
 export default function Home() {
+  const [showFollowUsDialog, setShowFollowUsDialog] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setShowFollowUsDialog(true);
+    }, 2000);
+  }, []);
+
+  const handleClose = () => {
+    setShowFollowUsDialog(!showFollowUsDialog);
+  };
+
   return (
     <main>
+      <div className="max-md:hidden">
+        {showFollowUsDialog && <FollowUsDialog onClose={handleClose} />}
+      </div>
       <div className="max-lg:hidden">
         <Banner />
       </div>

@@ -71,10 +71,10 @@ const ImageCarousel = () => {
         </CarouselItem>
         <CarouselItem className="h-[100vh]">
           <Image
-            src={"/images/carousel/6.jpg"}
-            width={1600}
-            height={1200}
-            alt="6"
+            src={"/images/carousel/7.jpg"}
+            width={3072}
+            height={4096}
+            alt="7"
             className="object-cover object-center w-full h-full"
           />
         </CarouselItem>
