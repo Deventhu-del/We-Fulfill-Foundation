@@ -9,12 +9,12 @@ const DonationSlider = () => {
   const [customAmount, setCustomAmount] = useState("");
   const [showCustomInput, setShowCustomInput] = useState(false);
 
-  const changeDonationValue = (value) => {
+  const changeDonationValue = (value: number) => {
     setDonationValue(value);
     setShowCustomInput(false); // Hide the custom amount input field
   };
 
-  const handleCustomAmountChange = (event) => {
+  const handleCustomAmountChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setCustomAmount(event.target.value);
   };
 
