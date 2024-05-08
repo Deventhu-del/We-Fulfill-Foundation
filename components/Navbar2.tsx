@@ -15,7 +15,7 @@ const Navbar2 = () => {
   };
 
   return (
-    <nav className="w-full sticky bg-white top-0 z-[1000] h-[90px] py-3 px-5 md:px-14 xl:px-24 flex justify-between items-center font-poppins text-black">
+    <nav className="w-full sticky bg-white top-0 z-[100] h-[90px] py-3 px-5 md:px-14 xl:px-24 flex justify-between items-center font-poppins text-black">
       {showSideNav && <SideNav isOpen={showSideNav} onClose={toggleNavMenu} />}
       <div className="flex justify-center items-center">
         <div

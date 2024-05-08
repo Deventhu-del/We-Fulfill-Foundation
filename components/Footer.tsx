@@ -44,9 +44,9 @@ const Footer = () => {
       </div>
       <div className="flex justify-center items-center mt-5">
         <Image
-          src={"/logo/logo_3.png"}
-          width={1920}
-          height={854}
+          src={"/logo/logo-removebg.png"}
+          width={666}
+          height={375}
           alt="WE FULFILL FOUNDATION"
           className="h-28 w-48 object-contain"
         />
