@@ -32,7 +32,14 @@ const Banner = () => {
           </span>
         </a>
         <p>|</p>
-        <p>Mobile No: 9990505152</p>
+        <a
+          href="mailto:wefulfillfoundation@gmail.com"
+          className="flex gap-2"
+        >
+          <p className="hover:underline">
+          wefulfillfoundation@gmail.com
+          </p>
+        </a>
       </div>
 
       <div className="flex gap-2 justify-center items-center">

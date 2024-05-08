@@ -16,9 +16,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full sticky bg-white top-0 z-[1000] h-[90px] py-3 px-12 md:px-14 xl:px-24 flex justify-between items-center font-poppins text-black">
-        {showSideNav && (
-          <SideNav isOpen={showSideNav} onClose={toggleNavMenu} />
-        )}
+      {showSideNav && <SideNav isOpen={showSideNav} onClose={toggleNavMenu} />}
       <div className="flex justify-center items-center">
         <div
           className="hidden max-lg:block cursor-pointer p-5 rounded-full hover:bg-gray-100"
@@ -26,15 +24,17 @@ const Navbar = () => {
         >
           <Menu />
         </div>
-        <div className="flex justify-center items-center">
-          <Image
-            src={"/logo/logo_3.png"}
-            width={1920}
-            height={854}
-            alt="WE FULFILL FOUNDATION"
-            className="h-28 w-48 object-contain"
-          />
-        </div>
+        <a href="/" className="cursor-pointer">
+          <div className="flex justify-center items-center">
+            <Image
+              src={"/logo/logo_3.png"}
+              width={1920}
+              height={854}
+              alt="WE FULFILL FOUNDATION"
+              className="h-28 w-48 object-contain"
+            />
+          </div>
+        </a>
       </div>
 
       <div className="flex justify-center items-center gap-x-0 xl:gap-x-5 max-lg:hidden text-sm xl:text-base">

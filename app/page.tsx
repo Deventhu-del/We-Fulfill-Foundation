@@ -5,6 +5,7 @@ import DonationSlider from "@/components/DonationSlider";
 import FollowUsDialog from "@/components/FollowUsDialog";
 import Footer from "@/components/Footer";
 import ImageCarousel from "@/components/ImageCarousel";
+import InfiniteMovingContent from "@/components/InfiniteMovingContent";
 import OurCampaigns from "@/components/OurCampaigns";
 import OurMission from "@/components/OurMission";
 import Stats from "@/components/Stats";
@@ -57,7 +58,9 @@ export default function Home() {
         <OurMission />
       </div>
 
-      <Stats />
+      <div className="bg-gray-200">
+        <InfiniteMovingContent />
+      </div>
 
       <div id="our-campaigns">
         <OurCampaigns />

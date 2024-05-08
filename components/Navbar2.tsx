@@ -24,15 +24,20 @@ const Navbar2 = () => {
         >
           <Menu />
         </div>
-        <div className="flex justify-center items-center max-md:hidden">
-          <Image
-            src={"/logo/logo_1.jpg"}
-            width={1111}
-            height={1060}
-            alt="WE FULFILL FOUNDATION"
-            className="w-fit h-16 object-contain"
-          />
-        </div>
+        
+        <a href="/" className="cursor-pointer">
+          <div className="flex justify-center items-center max-md:hidden">
+            <Image
+              src={"/logo/logo_1.jpg"}
+              width={1111}
+              height={1060}
+              alt="WE FULFILL FOUNDATION"
+              className="w-fit h-16 object-contain"
+            />
+          </div>
+        </a>
+
+        <a href="/" className="cursor-pointer">
         <div className="flex justify-center items-center md:hidden">
           <Image
             src={"/logo/logo.png"}
@@ -42,6 +47,7 @@ const Navbar2 = () => {
             className="w-fit h-20 object-contain"
           />
         </div>
+        </a>
       </div>
 
       <div className="flex justify-center items-center gap-x-0 xl:gap-x-5 max-lg:hidden text-sm xl:text-base">

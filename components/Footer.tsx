@@ -52,9 +52,10 @@ const Footer = () => {
         />
       </div>
       <div className="flex flex-col justify-center items-center text-sm text-center">
-        <p className="">
+        {/* ADDRESS */}
+        {/* <p className="">
           1-9/10-11, Upper Ground Floor, Sector-16, Rohini, Delhi-110089
-        </p>
+        </p> */}
         <div className="flex flex-col lg:flex-row gap-2">
           <a
             href="mailto:janjagritisewasansthan@gmail.com"
@@ -66,7 +67,14 @@ const Footer = () => {
             </span>
           </a>
           <p className="max-lg:hidden">|</p>
-          <p>Mobile No: 9990505152</p>
+          <a
+            href="mailto:wefulfillfoundation@gmail.com"
+            className="flex gap-2"
+          >
+            <p className="hover:underline">
+            wefulfillfoundation@gmail.com
+            </p>
+          </a>
         </div>
         <p className="mt-5">PAN NO: AAATO2418E</p>
       </div>

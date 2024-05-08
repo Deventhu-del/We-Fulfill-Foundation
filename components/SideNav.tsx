@@ -12,15 +12,17 @@ const SideNav = ({ isOpen, onClose }: any) => {
       }`}
     >
       <div className="flex justify-between items-center">
-        <div className="flex justify-center items-center">
-          <Image
-            src={"/logo/logo.png"}
-            width={1920}
-            height={1080}
-            alt="WE FULFILL FOUNDATION"
-            className="h-28 w-48 object-contain"
-          />
-        </div>
+      <a href="/" className="cursor-pointer">
+          <div className="flex justify-center items-center">
+            <Image
+              src={"/logo/logo.png"}
+              width={1920}
+              height={1080}
+              alt="WE FULFILL FOUNDATION"
+              className="h-28 w-48 object-contain"
+            />
+          </div>
+        </a>
         <div
           onClick={onClose}
           className="cursor-pointer p-5 rounded-full hover:bg-gray-100"

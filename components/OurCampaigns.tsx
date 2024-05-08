@@ -217,15 +217,7 @@ const OurCampaigns = () => {
                   className="object-cover w-full h-full rounded-xl"
                 />
               </CarouselItem>
-              <CarouselItem className="rounded-xl">
-                <Image
-                  src={"/images/our-campaigns/food/2.jpg"}
-                  width={1600}
-                  height={1200}
-                  alt="1"
-                  className="object-cover w-full h-full rounded-xl"
-                />
-              </CarouselItem>
+              
               <CarouselItem className="rounded-xl">
                 <Image
                   src={"/images/our-campaigns/food/3.jpg"}
