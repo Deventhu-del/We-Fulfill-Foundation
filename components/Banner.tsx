@@ -14,7 +14,7 @@ import {
 
 const Banner = () => {
   return (
-    <div className="w-full bg-black text-white py-3 px-10 text-sm font-poppins flex justify-between items-center">
+    <div className="w-full bg-[#ffc300] text-black py-3 px-10 text-sm font-poppins flex justify-between items-center">
       <div className="flex justify-center items-center gap-3">
         <p>Join the movement</p>
         <div className="w-2 h-2 bg-red-500 rounded-full" />

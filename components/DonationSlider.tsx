@@ -30,27 +30,27 @@ const DonationSlider = () => {
       </div>
       <div className="">
         <div className="flex flex-wrap gap-3 justify-center items-center">
-          <div className="px-8 py-3 border-2 rounded-full hover:border-black hover:bg-black hover:text-white cursor-pointer transition-all ease-in-out duration-200 ">
+          <div className="px-8 py-3 border-2 border-white rounded-full hover:border-black hover:bg-black text-white cursor-pointer transition-all ease-in-out duration-200 ">
             <p className="flex">
               <IndianRupee /> 100
             </p>
           </div>
-          <div className="px-8 py-3 border-2 rounded-full hover:border-black hover:bg-black hover:text-white cursor-pointer transition-all ease-in-out duration-200">
+          <div className="px-8 py-3 border-2 border-white rounded-full hover:border-black hover:bg-black hover:text-white cursor-pointer transition-all ease-in-out duration-200">
             <p className="flex">
               <IndianRupee /> 200
             </p>
           </div>
-          <div className="px-8 py-3 border-2 rounded-full hover:border-black hover:bg-black hover:text-white cursor-pointer transition-all ease-in-out duration-200">
+          <div className="px-8 py-3 border-2 border-white rounded-full hover:border-black hover:bg-black hover:text-white cursor-pointer transition-all ease-in-out duration-200">
             <p className="flex">
               <IndianRupee /> 500
             </p>
           </div>
-          <div className="px-8 py-3 border-2 rounded-full hover:border-black hover:bg-black hover:text-white cursor-pointer transition-all ease-in-out duration-200">
+          <div className="px-8 py-3 border-2 border-white rounded-full hover:border-black hover:bg-black hover:text-white cursor-pointer transition-all ease-in-out duration-200">
             <p className="flex">
               <IndianRupee /> 1000
             </p>
           </div>
-          <div className="px-8 py-3 border-2 rounded-full hover:border-black hover:bg-black hover:text-white cursor-pointer transition-all ease-in-out duration-200">
+          <div className="px-8 py-3 border-2 border-white rounded-full hover:border-black hover:bg-black hover:text-white cursor-pointer transition-all ease-in-out duration-200">
             <p className="flex">Custom Amount</p>
           </div>
         </div>

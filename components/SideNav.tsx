@@ -14,9 +14,9 @@ const SideNav = ({ isOpen, onClose }: any) => {
       <div className="flex justify-between items-center">
         <div className="flex justify-center items-center">
           <Image
-            src={"/logo/logo_3.png"}
+            src={"/logo/logo.png"}
             width={1920}
-            height={854}
+            height={1080}
             alt="WE FULFILL FOUNDATION"
             className="h-28 w-48 object-contain"
           />

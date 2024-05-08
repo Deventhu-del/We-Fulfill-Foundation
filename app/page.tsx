@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <main>
-      <div className="max-md:hidden">
+      <div className="">
         {showFollowUsDialog && <FollowUsDialog onClose={handleClose} />}
       </div>
       <div className="max-lg:hidden">

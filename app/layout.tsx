@@ -10,6 +10,7 @@ import {
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
+import Navbar2 from "@/components/Navbar2";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -47,7 +48,8 @@ export default function RootLayout({
         />
       </head>
       <body className={cn(`relative h-full antialiased`, poppins.className)}>
-        <Navbar />
+        {/* <Navbar /> */}
+        <Navbar2/>
         {children}
       </body>
     </html>

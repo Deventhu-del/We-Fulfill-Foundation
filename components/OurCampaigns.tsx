@@ -19,7 +19,7 @@ const OurCampaigns = () => {
         </span>
       </h3>
 
-      <div className="flex pt-12 pb-24 justify-between items-start w-full h-full flex-col lg:flex-row gap-10">
+      <div className="flex mt-10 pt-12 pb-24 justify-between items-center w-full h-full flex-col lg:flex-row gap-10">
         <div className="max-lg:hidden">
           <Carousel
             opts={{
@@ -38,12 +38,48 @@ const OurCampaigns = () => {
                   className="object-cover w-full h-full rounded-xl"
                 />
               </CarouselItem>
+              <CarouselItem className="rounded-xl">
+                <Image
+                  src={"/images/our-campaigns/medical/2.jpg"}
+                  width={1600}
+                  height={1200}
+                  alt="1"
+                  className="object-cover w-full h-full rounded-xl"
+                />
+              </CarouselItem>
+              <CarouselItem className="rounded-xl">
+                <Image
+                  src={"/images/our-campaigns/medical/3.jpg"}
+                  width={1600}
+                  height={1200}
+                  alt="1"
+                  className="object-cover w-full h-full rounded-xl"
+                />
+              </CarouselItem>
 
               <CarouselItem className="rounded-xl">
                 <Image
                   src={"/images/our-campaigns/medical/4.jpg"}
                   width={1600}
                   height={1200}
+                  alt="1"
+                  className="object-cover w-full h-full rounded-xl"
+                />
+              </CarouselItem>
+              <CarouselItem className="rounded-xl">
+                <Image
+                  src={"/images/our-campaigns/medical/5.jpg"}
+                  width={1600}
+                  height={1200}
+                  alt="1"
+                  className="object-cover w-full h-full rounded-xl"
+                />
+              </CarouselItem>
+              <CarouselItem className="rounded-xl">
+                <Image
+                  src={"/images/our-campaigns/medical/6.jpg"}
+                  width={1080}
+                  height={613}
                   alt="1"
                   className="object-cover w-full h-full rounded-xl"
                 />
@@ -135,7 +171,7 @@ const OurCampaigns = () => {
         </div>
       </div>
 
-      <div className="flex py-24 justify-between items-start w-full h-full flex-col lg:flex-row gap-10">
+      <div className="flex py-24 justify-between items-center w-full h-full flex-col lg:flex-row gap-10">
         <div className="w-full lg:w-[500px]">
           <div className="font-semibold">
             <h4 className="text-3xl">
@@ -208,6 +244,24 @@ const OurCampaigns = () => {
                   className="object-cover w-full h-full rounded-xl"
                 />
               </CarouselItem>
+              <CarouselItem className="rounded-xl">
+                <Image
+                  src={"/images/our-campaigns/food/5.jpg"}
+                  width={3072}
+                  height={4096}
+                  alt="1"
+                  className="object-cover w-full h-full rounded-xl"
+                />
+              </CarouselItem>
+              <CarouselItem className="rounded-xl">
+                <Image
+                  src={"/images/our-campaigns/food/6.jpg"}
+                  width={3072}
+                  height={4096}
+                  alt="1"
+                  className="object-cover w-full h-full rounded-xl"
+                />
+              </CarouselItem>
             </CarouselContent>
             <CarouselPrevious />
             <CarouselNext />
@@ -215,7 +269,7 @@ const OurCampaigns = () => {
         </div>
       </div>
 
-      <div className="flex py-24 justify-between items-start w-full h-full flex-col lg:flex-row gap-10">
+      <div className="flex py-24 justify-between items-center w-full h-full flex-col lg:flex-row gap-10">
         <div className="max-lg:hidden">
           <Carousel
             opts={{
@@ -243,12 +297,12 @@ const OurCampaigns = () => {
         <div className="w-full lg:w-[500px]">
           <div className="font-semibold">
             <h4 className="text-3xl">
-              <span className="text-[#d61c4d]">Samuhik</span> Vivah
+              <span className="text-[#d61c4d]">Samuhik</span> Vivaah
             </h4>
           </div>
           <div className="text-justify mt-5">
             <p>
-              Saamoohik Vivah, or collective weddings, hold a special
+              Samuhik Vivaah, or collective weddings, hold a special
               significance in our culture. They not only celebrate the union of
               couples but also reinforce the bonds of solidarity and inclusivity
               within society. Our campaign aimed to organize Saamoohik Vivah
@@ -291,7 +345,7 @@ const OurCampaigns = () => {
         </div>
       </div>
 
-      <div className="flex py-24 justify-between items-start w-full h-full flex-col lg:flex-row gap-10">
+      <div className="flex py-24 justify-between items-center w-full h-full flex-col lg:flex-row gap-10">
         <div className="w-full lg:w-[500px]">
           <div className="font-semibold">
             <h4 className="text-3xl">
