@@ -14,7 +14,7 @@ const SideNav = ({ isOpen, onClose }: any) => {
       <div className="flex justify-between items-center">
       <a href="/" className="cursor-pointer">
           <div className="flex justify-center items-center">
-            <Image
+            <img
               src={"/logo/logo.png"}
               width={1920}
               height={1080}

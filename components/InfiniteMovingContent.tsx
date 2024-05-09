@@ -18,7 +18,7 @@ const InfiniteMovingContent = () => {
         </div>
 
         <div className="">
-          <Image
+          <img
             src={"/images/carousel/7.jpg"}
             width={3072}
             height={4096}
@@ -39,7 +39,7 @@ const InfiniteMovingContent = () => {
         </div>
 
         <div>
-          <Image
+          <img
             src={"/images/our-campaigns/medical/3.jpg"}
             width={1600}
             height={1200}
@@ -49,7 +49,7 @@ const InfiniteMovingContent = () => {
         </div>
 
         <div>
-          <Image
+          <img
             src={"/images/carousel/2.jpg"}
             width={1080}
             height={767}
@@ -58,53 +58,6 @@ const InfiniteMovingContent = () => {
           />
         </div>
 
-        {/* <div className="">
-          <video autoPlay muted loop>
-            <source src="/videos/vid_3.mp4" type="video/mp4" />
-          </video>
-        </div>
-
-        <div className="">
-          <video autoPlay muted loop>
-            <source src="/videos/vid_3.mp4" type="video/mp4" />
-          </video>
-        </div>
-
-        <div className="l">
-          <video autoPlay muted loop>
-            <source src="/videos/vid_3.mp4" type="video/mp4" />
-          </video>
-        </div>
-
-        <div className="">
-          <video autoPlay muted loop>
-            <source src="/videos/vid_3.mp4" type="video/mp4" />
-          </video>
-        </div>
-
-        <div className="">
-          <video autoPlay muted loop>
-            <source src="/videos/vid_3.mp4" type="video/mp4" />
-          </video>
-        </div>
-
-        <div className="">
-          <video autoPlay muted loop>
-            <source src="/videos/vid_3.mp4" type="video/mp4" />
-          </video>
-        </div>
-
-        <div className="">
-          <video autoPlay muted loop>
-            <source src="/videos/vid_3.mp4" type="video/mp4" />
-          </video>
-        </div>
-
-        <div className="">
-          <video autoPlay muted loop>
-            <source src="/videos/vid_3.mp4" type="video/mp4" />
-          </video>
-        </div> */}
       </InfiniteMovingCards>
     </div>
   );

@@ -23,21 +23,21 @@ const Banner = () => {
 
       <div className="flex gap-2">
         <a
-          href="mailto:janjagritisewasansthan@gmail.com"
+          href="mailto:wefulfillfoundation@gmail.com"
           className="flex gap-2"
         >
           Email:
           <span className="hover:underline">
-            janjagritisewasansthan@gmail.com
+          wefulfillfoundation@gmail.com
           </span>
         </a>
         <p>|</p>
         <a
-          href="mailto:wefulfillfoundation@gmail.com"
+          href="mailto:janjagritisewasansthan@gmail.com"
           className="flex gap-2"
         >
           <p className="hover:underline">
-          wefulfillfoundation@gmail.com
+          janjagritisewasansthan@gmail.com
           </p>
         </a>
       </div>

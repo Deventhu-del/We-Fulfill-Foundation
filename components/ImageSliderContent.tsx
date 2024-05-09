@@ -24,7 +24,7 @@ const ImageSliderContent = ({
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="w-full h-full flex justify-center items-start">
-        <Image
+        <img
           src={`/images/our-mission/${gifName}.gif`}
           width={500}
           height={500}

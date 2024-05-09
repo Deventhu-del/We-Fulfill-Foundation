@@ -27,7 +27,7 @@ const Navbar2 = () => {
         
         <a href="/" className="cursor-pointer">
           <div className="flex justify-center items-center max-md:hidden">
-            <Image
+            <img
               src={"/logo/logo_1.jpg"}
               width={1111}
               height={1060}
@@ -39,7 +39,7 @@ const Navbar2 = () => {
 
         <a href="/" className="cursor-pointer">
         <div className="flex justify-center items-center md:hidden">
-          <Image
+          <img
             src={"/logo/logo.png"}
             width={1920}
             height={1080}
@@ -84,7 +84,7 @@ const Navbar2 = () => {
 
       <div className="flex gap-5">
         <div className="flex justify-center items-center max-md:hidden">
-          <Image
+          <img
             src={"/logo/logo_41.png"}
             width={1600}
             height={1278}

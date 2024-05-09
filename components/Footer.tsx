@@ -6,7 +6,12 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "./ui/tooltip";
 
 const Footer = () => {
   return (
@@ -43,7 +48,7 @@ const Footer = () => {
         </Link>
       </div>
       <div className="flex justify-center items-center mt-5">
-        <Image
+        <img
           src={"/logo/logo-removebg.png"}
           width={666}
           height={375}
@@ -57,25 +62,21 @@ const Footer = () => {
           1-9/10-11, Upper Ground Floor, Sector-16, Rohini, Delhi-110089
         </p> */}
         <div className="flex flex-col lg:flex-row gap-2">
-          <a
-            href="mailto:janjagritisewasansthan@gmail.com"
-            className="flex gap-2"
-          >
+          <a href="mailto:wefulfillfoundation@gmail.com" className="flex gap-2">
             Email:
             <span className="hover:underline">
-              janjagritisewasansthan@gmail.com
+              wefulfillfoundation@gmail.com
             </span>
           </a>
           <p className="max-lg:hidden">|</p>
           <a
-            href="mailto:wefulfillfoundation@gmail.com"
+            href="mailto:janjagritisewasansthan@gmail.com"
             className="flex gap-2"
           >
-            <p className="hover:underline">
-            wefulfillfoundation@gmail.com
-            </p>
+            <p className="hover:underline">janjagritisewasansthan@gmail.com</p>
           </a>
         </div>
+        <p>Mobile No: 9990505152</p>
         <p className="mt-5">PAN NO: AAATO2418E</p>
       </div>
 

@@ -16,11 +16,11 @@ const WhatWeDo = () => {
             </h2>
           </div>
           <div className="flex flex-col gap-1">
-            <p className="w-full md:w-3/4 text-justify text-[12px] lg:text-base ml-2 italic">
+            <p className="w-full md:w-3/4 text-[12px] lg:text-base ml-2 italic">
               We&apos;re more than just an NGO!
             </p>
 
-            <p className="w-full md:w-3/4 text-justify text-[12px] lg:text-base ml-2">
+            <p className="w-full md:w-3/4 text-[12px] lg:text-base ml-2">
               We&apos;re a family dedicated to making a meaningful difference in the
               lives of those who need it most. From supporting orphaned children
               to providing care for the elderly, and assisting impoverished

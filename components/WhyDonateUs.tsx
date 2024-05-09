@@ -17,7 +17,7 @@ const WhyDonateUs = () => {
       </div>
       <div className="w-full h-full flex items-center justify-center">
         <div className="md:w-1/2 h-full">
-          <Image
+          <img
             src={"/images/donate-now.png"}
             width={1080}
             height={585}

@@ -17,7 +17,7 @@ const WhyVolunteerUs = () => {
             <div>
               <HeartFilledIcon className="w-5 h-fit mt-1 text-[#d61c4d]" />
             </div>
-            <p className="text-justify">
+            <p className="">
               Volunteering is not only rewarding, but it&apos;s also a lot of fun!
               You&apos;ll experience the joy of giving back, making a positive
               impact, and seeing the difference you can make in the lives of
@@ -28,7 +28,7 @@ const WhyVolunteerUs = () => {
             <div>
               <HeartFilledIcon className="w-5 h-fit mt-1 text-[#d61c4d]" />
             </div>
-            <p className="text-justify">
+            <p className="">
               As a volunteer with WEFULFILL FOUNDATION, you have the opportunity
               to directly impact the lives of those in need. Your time and
               effort contribute to meaningful projects and initiatives that
@@ -39,7 +39,7 @@ const WhyVolunteerUs = () => {
             <div>
               <HeartFilledIcon className="w-5 h-fit mt-1 text-[#d61c4d]" />
             </div>
-            <p className="text-justify">
+            <p className="">
               Volunteering with WEFULFILL FOUNDATION offers you the chance to
               develop new skills, gain valuable experience, and broaden your
               horizons. Whether it&apos;s through hands-on work in the field or

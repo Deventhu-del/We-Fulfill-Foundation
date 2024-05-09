@@ -25,7 +25,7 @@ const ImageCarousel = () => {
     >
       <CarouselContent className="h-[85vh] md:h-[100vh]">
         <CarouselItem className="w-full">
-          <Image
+          <img
             src={"/images/carousel/1.jpg"}
             width={1600}
             height={1200}
@@ -34,7 +34,7 @@ const ImageCarousel = () => {
           />
         </CarouselItem>
         <CarouselItem className="">
-          <Image
+          <img
             src={"/images/carousel/2.jpg"}
             width={1080}
             height={767}
@@ -42,17 +42,9 @@ const ImageCarousel = () => {
             className="object-cover object-center w-full h-full"
           />
         </CarouselItem>
+        
         <CarouselItem className="">
-          <Image
-            src={"/images/carousel/3.jpg"}
-            width={1080}
-            height={705}
-            alt="3"
-            className="object-cover object-center w-full h-full"
-          />
-        </CarouselItem>
-        <CarouselItem className="">
-          <Image
+          <img
             src={"/images/carousel/4.jpg"}
             width={1080}
             height={613}
@@ -61,7 +53,7 @@ const ImageCarousel = () => {
           />
         </CarouselItem>
         <CarouselItem className="">
-          <Image
+          <img
             src={"/images/carousel/5.jpg"}
             width={1600}
             height={1200}
@@ -70,7 +62,7 @@ const ImageCarousel = () => {
           />
         </CarouselItem>
         <CarouselItem className="">
-          <Image
+          <img
             src={"/images/carousel/7.jpg"}
             width={3072}
             height={4096}

@@ -30,7 +30,7 @@ const OurCampaigns = () => {
           >
             <CarouselContent className="max-w-[700px] h-full max-h-[400px] rounded-xl">
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/medical/1.jpg"}
                   width={1600}
                   height={1200}
@@ -39,7 +39,7 @@ const OurCampaigns = () => {
                 />
               </CarouselItem>
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/medical/2.jpg"}
                   width={1600}
                   height={1200}
@@ -48,7 +48,7 @@ const OurCampaigns = () => {
                 />
               </CarouselItem>
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/medical/3.jpg"}
                   width={1600}
                   height={1200}
@@ -58,7 +58,7 @@ const OurCampaigns = () => {
               </CarouselItem>
 
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/medical/4.jpg"}
                   width={1600}
                   height={1200}
@@ -67,7 +67,7 @@ const OurCampaigns = () => {
                 />
               </CarouselItem>
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/medical/5.jpg"}
                   width={1600}
                   height={1200}
@@ -76,7 +76,7 @@ const OurCampaigns = () => {
                 />
               </CarouselItem>
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/medical/6.jpg"}
                   width={1080}
                   height={613}
@@ -97,7 +97,7 @@ const OurCampaigns = () => {
             </h4>
             <h4 className="text-3xl text-[#d61c4d]">Blood Donation Camp</h4>
           </div>
-          <div className="text-justify text-sm mt-5">
+          <div className=" mt-5">
             <p>
               Our dedicated team of healthcare professionals conducted thorough
               medical check-ups, offering consultations, screenings, and basic
@@ -129,7 +129,7 @@ const OurCampaigns = () => {
           >
             <CarouselContent className="max-w-[700px] h-full max-h-[400px] rounded-xl">
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/medical/1.jpg"}
                   width={1600}
                   height={1200}
@@ -138,7 +138,7 @@ const OurCampaigns = () => {
                 />
               </CarouselItem>
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/medical/2.jpg"}
                   width={1600}
                   height={1200}
@@ -147,7 +147,7 @@ const OurCampaigns = () => {
                 />
               </CarouselItem>
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/medical/3.jpg"}
                   width={1600}
                   height={1200}
@@ -156,7 +156,7 @@ const OurCampaigns = () => {
                 />
               </CarouselItem>
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/medical/4.jpg"}
                   width={1600}
                   height={1200}
@@ -183,7 +183,7 @@ const OurCampaigns = () => {
               Underprivileged Children
             </h4>
           </div>
-          <div className="text-justify mt-5">
+          <div className=" mt-5">
             <p>
               We established food distribution centers in underserved
               communities, providing meals to children and their families. These
@@ -209,7 +209,7 @@ const OurCampaigns = () => {
           >
             <CarouselContent className="max-w-[700px] h-full max-h-[400px] rounded-xl">
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/food/1.jpg"}
                   width={1600}
                   height={1200}
@@ -219,7 +219,7 @@ const OurCampaigns = () => {
               </CarouselItem>
               
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/food/3.jpg"}
                   width={1600}
                   height={1200}
@@ -228,7 +228,7 @@ const OurCampaigns = () => {
                 />
               </CarouselItem>
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/food/4.jpg"}
                   width={1080}
                   height={767}
@@ -237,7 +237,7 @@ const OurCampaigns = () => {
                 />
               </CarouselItem>
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/food/5.jpg"}
                   width={3072}
                   height={4096}
@@ -246,7 +246,7 @@ const OurCampaigns = () => {
                 />
               </CarouselItem>
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/food/6.jpg"}
                   width={3072}
                   height={4096}
@@ -273,7 +273,7 @@ const OurCampaigns = () => {
             <CarouselContent className="max-w-[700px] h-full max-h-[400px] rounded-xl">
               
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/samuhik/2.jpg"}
                   width={1080}
                   height={695}
@@ -292,7 +292,7 @@ const OurCampaigns = () => {
               <span className="text-[#d61c4d]">Samuhik</span> Vivaah
             </h4>
           </div>
-          <div className="text-justify mt-5">
+          <div className=" mt-5">
             <p>
               Samuhik Vivaah, or collective weddings, hold a special
               significance in our culture. They not only celebrate the union of
@@ -322,7 +322,7 @@ const OurCampaigns = () => {
             <CarouselContent className="max-w-[700px] h-full max-h-[400px] rounded-xl">
               
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/samuhik/2.jpg"}
                   width={1080}
                   height={695}
@@ -348,7 +348,7 @@ const OurCampaigns = () => {
               <span className="text-[#d61c4d]">Clothing</span> to Those in Need
             </h4>
           </div>
-          <div className="text-justify mt-5">
+          <div className="mt-5">
             <p>
               We organized food distribution programs to ensure that elderly
               individuals had access to nutritious meals. These programs not
@@ -374,7 +374,7 @@ const OurCampaigns = () => {
             <CarouselContent className="max-w-[700px] h-full max-h-[400px] rounded-xl">
               
               <CarouselItem className="rounded-xl">
-                <Image
+                <img
                   src={"/images/our-campaigns/nourishment/2.jpg"}
                   width={1080}
                   height={787}
@@ -382,15 +382,7 @@ const OurCampaigns = () => {
                   className="object-cover w-full h-full rounded-xl"
                 />
               </CarouselItem>
-              <CarouselItem className="rounded-xl">
-                <Image
-                  src={"/images/our-campaigns/nourishment/3.jpg"}
-                  width={1080}
-                  height={705}
-                  alt="1"
-                  className="object-cover w-full h-full rounded-xl"
-                />
-              </CarouselItem>
+              
             </CarouselContent>
             <CarouselPrevious />
             <CarouselNext />

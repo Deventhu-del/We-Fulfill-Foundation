@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
         <a href="/" className="cursor-pointer">
           <div className="flex justify-center items-center">
-            <Image
+            <img
               src={"/logo/logo_3.png"}
               width={1920}
               height={854}
