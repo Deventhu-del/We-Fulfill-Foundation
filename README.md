@@ -9,6 +9,7 @@ Key Technologies:
     Tailwind CSS: For a responsive and modern design.
     Axios: Handling API requests seamlessly.
     PhonePe: Payment Gateway integration.
+    AWS Lambda: Serverless API using AWS lambda function. 
 
 Explore the project on GitHub: We-Fulfill Foundation. Your feedback and contributions are greatly appreciated!
 
